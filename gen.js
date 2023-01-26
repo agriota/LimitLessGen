@@ -5,7 +5,7 @@ canvas.height = 800;
 document.body.appendChild(canvas);
 
 const aoeRadius = 125;
-const towerRadius = 50;
+const towerRadius = 100;
 
 function showGen() {
   ctx.clearRect(0, 0, canvas.width, canvas.height); 
